@@ -18,7 +18,7 @@ const RefComponentFnl = Vue.extend({
         "button",
         {
           on: {
-            click: focusInput("1"),
+            click: this.sayHi("1"),
           },
         },
         "focus input 1"
